@@ -19,7 +19,7 @@ At the moment it supports 3 commands:
 
 To install - by default it moves the binary to `/usr/local/bin`
 ```
-sudo dnf install cargo && make build && sudo make install
+sudo dnf install cargo && sudo dnf install openssl-devel && make build && sudo make install
 ```
 
 To uninstall
